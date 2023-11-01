@@ -40,3 +40,21 @@ La siguiente sección del capítulo se enfoca en las instrucciones de salto, que
 Finalmente, el capítulo cubre las estructuras de control de alto nivel, que son las estructuras que permiten a los programas tomar decisiones y repetir tareas. Se discuten las diferentes estructuras de control de alto nivel que se pueden utilizar en la programación en ARM, como los bucles y las estructuras de control de flujo.
 
 En general, el Capítulo 2 proporciona una introducción completa a los tipos de datos y sentencias de alto nivel que se pueden utilizar en la programación en ARM. El capítulo incluye muchos ejemplos de código para ayudar a los lectores a comprender mejor cómo funcionan estos conceptos, y también se incluyen ejercicios propuestos para que los lectores puedan practicar la programación en ARM.
+
+**CAPITULO 3**
+El capítulo se enfoca en las subrutinas y el paso de parámetros en la programación en ARM. El capítulo comienza con una sección de lectura previa que cubre la pila y las instrucciones ldm y stm, que son las instrucciones que se utilizan para acceder a la memoria en ARM.
+
+La siguiente sección del capítulo se enfoca en la convención AAPCS (Procedure Call Standard for the ARM Architecture), que es un conjunto de reglas que se utilizan para definir cómo se deben pasar los parámetros y los valores de retorno en las subrutinas en ARM. Se explican las diferentes reglas de la convención AAPCS y se proporcionan ejemplos de código para ilustrar cómo se deben utilizar.
+
+La sección final del capítulo se enfoca en los ejemplos de aplicación de las subrutinas en ARM. Se discuten diferentes tipos de funciones, como las funciones en ensamblador llamadas desde C, las funciones en ensamblador llamadas desde ensamblador, las funciones recursivas y las funciones con muchos parámetros de entrada. Se proporcionan ejemplos de código para cada tipo de función y se discuten las mejores prácticas para escribir funciones eficientes y fáciles de mantener.
+
+En general, el Capítulo 3 proporciona una introducción completa a las subrutinas y el paso de parámetros en la programación en ARM. El capítulo incluye muchos ejemplos de código para ayudar a los lectores a comprender mejor cómo funcionan estos conceptos, y también se incluyen ejercicios propuestos para que los lectores puedan practicar la programación en ARM.
+
+**CAPITULO 3**
+Este capítulo está más enfocado en la E/S a bajo nivel en la programación en ARM. El capítulo comienza con una sección de lectura previa que cubre las librerías y el kernel, que son las dos capas que se utilizan para acceder a los dispositivos de E/S en ARM.
+
+La siguiente sección del capítulo se enfoca en la programación de dispositivos de E/S a bajo nivel en ARM. Se discuten los diferentes tipos de dispositivos de E/S que se pueden utilizar en ARM, como los puertos serie y paralelo, y se explican las diferentes técnicas que se pueden utilizar para programar estos dispositivos a bajo nivel.
+
+La sección final del capítulo se enfoca en los ejemplos de aplicación de la E/S a bajo nivel en ARM. Se discuten diferentes tipos de aplicaciones, como la programación de dispositivos de almacenamiento, la programación de dispositivos de red y la programación de dispositivos de entrada y salida. Se proporcionan ejemplos de código para cada tipo de aplicación y se discuten las mejores prácticas para escribir aplicaciones eficientes y fáciles de mantener.
+
+En general, el Capítulo 4 proporciona una introducción completa a la E/S a bajo nivel en la programación en ARM. El capítulo incluye muchos ejemplos de código para ayudar a los lectores a comprender mejor cómo funcionan estos conceptos, y también se incluyen ejercicios propuestos para que los lectores puedan practicar la programación en ARM.
