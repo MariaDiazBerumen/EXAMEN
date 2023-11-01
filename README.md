@@ -50,7 +50,7 @@ La sección final del capítulo se enfoca en los ejemplos de aplicación de las 
 
 En general, el Capítulo 3 proporciona una introducción completa a las subrutinas y el paso de parámetros en la programación en ARM. El capítulo incluye muchos ejemplos de código para ayudar a los lectores a comprender mejor cómo funcionan estos conceptos, y también se incluyen ejercicios propuestos para que los lectores puedan practicar la programación en ARM.
 
-**CAPITULO 3**
+**CAPITULO 4**
 Este capítulo está más enfocado en la E/S a bajo nivel en la programación en ARM. El capítulo comienza con una sección de lectura previa que cubre las librerías y el kernel, que son las dos capas que se utilizan para acceder a los dispositivos de E/S en ARM.
 
 La siguiente sección del capítulo se enfoca en la programación de dispositivos de E/S a bajo nivel en ARM. Se discuten los diferentes tipos de dispositivos de E/S que se pueden utilizar en ARM, como los puertos serie y paralelo, y se explican las diferentes técnicas que se pueden utilizar para programar estos dispositivos a bajo nivel.
@@ -58,3 +58,9 @@ La siguiente sección del capítulo se enfoca en la programación de dispositivo
 La sección final del capítulo se enfoca en los ejemplos de aplicación de la E/S a bajo nivel en ARM. Se discuten diferentes tipos de aplicaciones, como la programación de dispositivos de almacenamiento, la programación de dispositivos de red y la programación de dispositivos de entrada y salida. Se proporcionan ejemplos de código para cada tipo de aplicación y se discuten las mejores prácticas para escribir aplicaciones eficientes y fáciles de mantener.
 
 En general, el Capítulo 4 proporciona una introducción completa a la E/S a bajo nivel en la programación en ARM. El capítulo incluye muchos ejemplos de código para ayudar a los lectores a comprender mejor cómo funcionan estos conceptos, y también se incluyen ejercicios propuestos para que los lectores puedan practicar la programación en ARM.
+
+*CAPITULO 5*
+En este capítulo se habla sobre los programa que usarán dispositivos de E/S usando el sistema de interrupciones hardware. Pidiendo saber como funcionan los puertos asociados.
+Mencionando que las interrupciones del ARM son autovectorizadas siendo que cada interrupción lleva asociada un número que sería llamaod número de interrupción. Habiendo 8 tipos de interrupciones . Se almacenan todos los vectores de interrupciones en una zona de la memoria llamada Tabla de vctores de interrupvión iniciando desde 0x00000000 terminando en n 0x0000001f.  
+Habiendo dos tipos de interrupciones: hardware y software siendo las de hardware donde su activación está condicionado por el hardware ya sea por excepciones provocadas en la ejecución de alguna instrucción o provocadas por la placa base.
+En este capítulo en resúmen se habla en gran medida sobre las interrupciones, tomando sus rutinas que toman y demás.
